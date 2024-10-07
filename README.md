@@ -39,8 +39,7 @@ The **MEAN stack** is a popular web development technology stack used for buildi
 - **Complexity**: Managing the entire stack can be complex, especially for large applications with multiple components.
 - **No SQL**: MongoDB's NoSQL approach may not be suitable for all types of applications, especially those that require complex transactions or relationships.
 
-### **Conclusion**
-The MEAN stack is a powerful and efficient technology stack for developing modern web applications. Its use of JavaScript across the full stack simplifies development and enhances productivity, making it a popular choice among developers for building dynamic and scalable web applications.
+
 
 Before enbacking on this project it is neccesary to have your AWS EC2 instance running and a MEAN stack application ready to be deployed.   The EC2 instance should have ports 5000 and 27017 open 
 
@@ -275,31 +274,5 @@ pm2 logs mean-app
   ![image](https://github.com/user-attachments/assets/5d5bb2aa-4e59-4653-ba62-e677d3dc8f66)
 
 
-+ Tested the backend API using Postman and Browser:
-*sample datas to use:*\
-```
-[
-    {
-        "name": "The Pragmatic Programmer",
-        "isbn": "978-0201616224",
-        "author": "Andrew Hunt, David Thomas",
-        "pages": 352
-    },
-    {
-        "name": "Clean Code",
-        "isbn": "978-0132350884",
-        "author": "Robert C. Martin",
-        "pages": 464
-    },
-    {
-        "name": "You Don’t Know JS: Scope & Closures",
-        "isbn": "978-1449335588",
-        "author": "Kyle Simpson",
-        "pages": 98
-    }
-]
-```
-
-+ 
-
-+ 
+### **Remark**
+The MEAN stack is a powerful and efficient technology stack for developing modern web applications. Its use of JavaScript across the full stack simplifies development and enhances productivity, making it a popular choice among developers for building dynamic and scalable web applications.
